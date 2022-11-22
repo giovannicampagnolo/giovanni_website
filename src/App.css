@@ -32,7 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Flare";
+  src: url('resources/fonts/flare/Flare-Regular.otf') format("otf"),
+    url("resources/fonts/flare/Flare-Regular.ttf") format("truetype"),
+    url("resources/fonts/flare/Flare-Regular.woff") format("woff");
 }
