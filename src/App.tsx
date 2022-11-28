@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          GIOVANNI CAMPAGNOLO WEBSITE
+        <p style={{ fontFamily: "Flare", letterSpacing: '5px' }}>
+          GIOVANNI <span style={{ color: "#0FF3EBE3" }}>C</span>AMPAGNOLO WEBSITE
         </p>
       </header>
     </div>

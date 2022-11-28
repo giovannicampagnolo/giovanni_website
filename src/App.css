@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2d313a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Flare";
+  src: url('resources/fonts/flare/Flare-Regular.otf') format("otf"),
+    url("resources/fonts/flare/Flare-Regular.ttf") format("truetype"),
+    url("resources/fonts/flare/Flare-Regular.woff") format("woff");
 }
